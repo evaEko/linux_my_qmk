@@ -16,8 +16,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL,  LT(SPC,KC_Z),LT(NUMS,KC_X),    KC_C,    KC_V,    KC_B,               KC_N,    KC_M,    KC_COMM,LT(NUMS,KC_DOT),LT(SPC,KC_QUOT), KC_LCTL,
                           KC_ESC, KC_LALT,                                                KC_GRV, KC_BSLS,
                                             KC_DEL,   KC_SPC,             KC_ENT,  KC_ENT,
-                                            KC_TAB,  KC_HOME,            KC_END,  KC_DEL,
-                                            KC_BSPC, KC_GRV,             KC_LGUI, KC_LALT
+                                            KC_TAB,  KC_HOME,            KC_END,  KC_SPC,
+                                            KC_BSPC, KC_GRV,             KC_LGUI, KC_EQL
     ),
 
     [_SPECIAL_CHARS] = LAYOUT(
@@ -26,19 +26,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      KC_TRNS ,KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                                      KC_HOME,KC_END,  KC_TRNS, KC_QUOT,KC_TRNS , KC_TRNS,
                           KC_ESC, KC_LALT,                                                KC_GRV, KC_BSLS,
                                             KC_DEL,   KC_SPC,             KC_ENT,  KC_ENT,
-                                            KC_TAB,  KC_HOME,            KC_END,  KC_DEL,
-                                            KC_BSPC, KC_GRV,             KC_LGUI, KC_LALT
+                                            KC_TAB,  KC_HOME,            KC_END,  KC_SPC,
+                                            KC_BSPC, KC_GRV,             KC_LGUI, KC_EQL
 
     ),
 
     [_NUMBERS] = LAYOUT(
      KC_TRNS, KC_1,  KC_2 ,  KC_3 ,   KC_4 ,   KC_5,                                        KC_6,   KC_7,  KC_8, KC_9 ,KC_0 , KC_TRNS,
-     KC_TRNS ,KC_LBRC, KC_RBRC,  KC_LCBR, KC_RCBR,  KC_TRNS,                                    KC_LEFT, KC_DOWN,  KC_UP , KC_RGHT,KC_TRNS, KC_TRNS,
+     KC_TRNS ,KC_LBRC, KC_RBRC,  KC_LCBR, KC_RCBR,  KC_TRNS,                                    KC_MS_LEFT, KC_MS_DOWN,  KC_MS_UP , KC_MS_RIGHT,KC_TRNS, KC_TRNS,
      KC_TRNS ,KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                                      KC_HOME,KC_END,  KC_TRNS, KC_QUOT,KC_TRNS , KC_TRNS,
                           KC_ESC, KC_LALT,                                                               KC_GRV, KC_BSLS,
-                                            KC_DEL,   KC_SPC,             KC_ENT,  KC_ENT,
-                                            KC_TAB,  KC_HOME,            KC_END,  KC_DEL,
-                                            KC_BSPC, KC_GRV,             KC_LGUI, KC_LALT
+                                            KC_DEL,   KC_SPC,             KC_BTN3,  KC_BTN3,
+                                            KC_TAB,  KC_HOME,            KC_END,  KC_BTN2,
+                                            KC_BSPC, KC_GRV,             KC_LGUI, KC_BTN4
     )
 
 
