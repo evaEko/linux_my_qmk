@@ -85,7 +85,7 @@ static char last_key[32] = "None";
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     if (record->event.pressed) {
         switch (keycode) {
-            //case KC_A: snprintf(last_key, sizeof(last_key), "A"); break;
+            case KC_A: snprintf(last_key, sizeof(last_key), "A"); break;
             case KC_B: snprintf(last_key, sizeof(last_key), "B"); break;
             case KC_C: snprintf(last_key, sizeof(last_key), "C"); break;
             case KC_D: snprintf(last_key, sizeof(last_key), "D"); break;
